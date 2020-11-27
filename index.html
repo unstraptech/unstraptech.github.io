@@ -26,7 +26,7 @@
         </div>
     </section>
 
-    <nav id="sideNav">
+    <!-- <nav id="sideNav">
         <ul>
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About Us</a></li>
@@ -36,7 +36,7 @@
             <li><a href="#contact">Contact Us</a></li>
         </ul>
     </nav>
-    <img src="menu.png" id="menuBtn">
+    <img src="menu.png" id="menuBtn"> -->
 
 <!-- about -->
 
@@ -169,27 +169,12 @@
 <!-- Social icons -->
     
     <section class="social-icons">
-        <img src="instagram.png" alt="">
-        <img src="linkedin.png" alt="">
-        <img src="twitter.png" alt="">
-        <img src="email.png" alt="">
+        <a href="https://www.instagram.com/unstraptech/" target ="_blank"><img src="instagram.png" alt=""></a>
+        <a href="https://www.linkedin.com/company/unstraptech" target ="_blank"><img src="linkedin.png" alt=""></a>
+        <a href="mailto:unstraptech@gmail.com"><img src="email.png" alt=""></a>
     </section>
 
     <script>
-        var menuBtn = document.getElementById("menuBtn");
-        var sideNav = document.getElementById("sideNav");
-
-        sideNav.style.right = "-250px";
-        menuBtn.onclick = function(){
-            if(sideNav.style.right == "-250px")
-            {
-                sideNav.style.right == "0";
-            }
-            else{
-                sideNav.style.right == "-250px";
-            }
-        }
-
         var scroll = new SmoothScroll('a[href*="#"]');
     </script>
 
